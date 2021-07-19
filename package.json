@@ -1,0 +1,29 @@
+{
+  "name": "proxy-serve",
+  "version": "1.0.0",
+  "description": "proxy network server",
+  "main": "bin/index.js",
+  "bin": {
+    "proxy": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js 19527",
+    "server": "node bin/index.js 19527",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-ba/proxy-serve.git"
+  },
+  "keywords": [
+    "node",
+    "proxy",
+    "server"
+  ],
+  "author": "Baran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-ba/proxy-serve/issues"
+  },
+  "homepage": "https://github.com/code-ba/proxy-serve#readme"
+}
